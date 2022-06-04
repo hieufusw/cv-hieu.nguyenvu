@@ -7642,6 +7642,7 @@ button.bg-dark:focus {
 
 .p-0 {
   padding: 0 !important;
+  /* background-color: #e2e6ea !important; */
 }
 
 .pt-0,
