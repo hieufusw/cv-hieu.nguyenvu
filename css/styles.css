@@ -10843,13 +10843,19 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
-.text-primary {
+.text-primary,
+.text-primary-1 {
   color: #bd5d38 !important;
 }
 
 .hover-text:hover,
 .text-primary:hover {
     color: #007bff !important;
+}
+
+.text-primary-1:hover {
+  color: #007bff !important;
+  text-decoration: underline;
 }
 
 .font-text {
@@ -11240,4 +11246,13 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+#footer {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #e91e63;
+  font-family: cursive;
 }
