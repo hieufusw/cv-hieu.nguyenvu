@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>CV - NGUYEN VU HIEU</title>
+    <title>NGUYEN VU HIEU</title>
     <link rel="icon" type="image/x-icon" href="assets/img/chrome.png" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
@@ -47,7 +47,7 @@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certificates">CERTIFICATES</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#volunteer">VOLUNTEER EXPERIENCES</a></li> -->
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#activity">ACTIVITIES</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#references">REFERENCES</a></li>
             </ul>
         </div>
@@ -62,14 +62,24 @@
                     <span class="text-primary">HIEU</span>
                 </h1>
                 <div class="subheading mb-5">
-                    <i class="icon-size fa fa-map-marker-alt"></i>
+                    <i class="icon-size fa fa-map-marker-alt" style="margin-left: 2px"></i>
                     Tran Phu, Chuong My, Hanoi · 0983450322 ·
-                    <a href="mailto:name@email.com" class="hover-text"><i class="far fa-envelope"></i> hieufusw@gmail.com</a><br>
+                    <a href="mailto:name@email.com" class="hover-text"><i class="far fa-envelope"></i>
+                        hieufusw@gmail.com</a><br>
                     <a><i class="icon-size fa fa-birthday-cake"></i> DOB: Feb 02, 1998</a><br>
                     <a><i class="icon-size fa fa-user"></i> Sex: Male</a>
                 </div>
-                <p class="lead mb-5">Short-term goals over the next three years are learning and more experience in the
-                    field of software engineering, having opportunities for self-study and self-development.</p>
+                <h6>Short-term goals:</h6>
+                <div class="mb-0">
+                    <i class="fa-custom-list fa fa-bookmark text-warning"></i>&nbsp;
+                    Over the next three years are learning and more experience in the
+                    field of software engineering, having opportunities for self-study and self-development.<br>
+                </div><br>
+                <h6>Long-term goals:</h6>
+                <div class="mb-0">
+                    <i class="fa-custom-list fa fa-bookmark text-warning"></i>&nbsp;
+                    Become a senior developer as well as a technical leader.<br>
+                </div><br>
                 <div class="social-icons">
                     <a class="social-icon" href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
                     <a class="social-icon" href="https://github.com/hieufusw"><i class="fab fa-github"></i></a>
@@ -81,12 +91,19 @@
                 <h2 class="mb-5" id="education">Education</h2>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0">FPT University</h3>
+                        <h3 class="text-primary-1 mb-0">FPT University</h3>
                         <div class="subheading mb-3">Major: Software Engineering</div>
                         <!-- <div>Computer Science - Web Development Track</div> -->
                         <p>GPA: 7.4/10</p>
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">August 2016 - Sep 2020</span></div>
+                </div>
+                <img id="myImg1" src="/assets/img/FPT.JPG" alt="" style="width: 530px; border-radius: 5px;">
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
                 </div>
             </div>
         </section>
@@ -94,26 +111,28 @@
         <!-- Experience-->
         <section class="resume-section" id="experience">
             <div class="resume-section-content">
-                <h2 class="mb-5">Experience</h2>
+                <h2 class="mb-5" style="margin-top: -18px">Experience</h2>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
                         <h3 class="text-primary-1 mb-0">WEB SHOPPING SMART PHONE</h3>
                         <div class="subheading mb-3">Back-End Developer</div>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Description: Shopping smart phone is a website to provide the customers to buy phone online.
+                            <strong>Description:</strong> Shopping smart phone is a website to provide the customers to
+                            buy phone online.
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Team size: 2
+                            <strong>Team size:</strong> 2
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Technology: Java, SQL Server.
+                            <strong>Technology:</strong> Java, SQL Server.
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            My responsibility: Analyze requirements, coding back-end, fix bug and testing.
+                            <strong>My responsibility:</strong> Analyze requirements, coding back-end, fix bug and
+                            testing.
                         </li>
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">March 2019 - April 2019</span></div>
@@ -124,20 +143,22 @@
                         <div class="subheading mb-3">Web Developer</div>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Description: Sushi restaurant is a website to provide the customers information about the
+                            <strong>Description:</strong> Sushi restaurant is a website to provide the customers
+                            information about the
                             dish.
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Team size: 1
+                            <strong>Team size:</strong> 1
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Technology: Java, HTML, CSS, SQL Server.
+                            <strong>Technology:</strong> Java, HTML, CSS, SQL Server.
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            My responsibility: Analyze requirements, design UI, coding front-end, back-end, fix bug and
+                            <strong>My responsibility:</strong> Analyze requirements, design UI, coding front-end,
+                            back-end, fix bug and
                             testing.
                         </li>
                     </div>
@@ -149,21 +170,23 @@
                         <div class="subheading mb-3">Back-End Developer</div>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Description: This project will produce a website booking amusements ticket. With digital and
+                            <strong>Description:</strong> This project will produce a website booking amusements ticket.
+                            With digital and
                             information technology platforms developed, tourists can learn, book amusements ticket, make
                             reservations and actively buy tickets, pay easily via e-wallets or bank accounts line.
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Team size: 5
+                            <strong>Team size:</strong> 5
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Technology: Java Framework Spring, MySQL, ReatJS.
+                            <strong>Technology:</strong> Java Framework Spring, MySQL, ReatJS.
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            My responsibility: Analyze requirements, draw the diagram, coding back-end, fix bug and
+                            <strong>My responsibility:</strong> Analyze requirements, draw the diagram, coding back-end,
+                            fix bug and
                             testing.
                         </li>
                     </div>
@@ -175,16 +198,17 @@
                         <div class="subheading mb-3">Back-End Developer</div>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Description: Document Management Software of the Ministry of Internal Affairs and
+                            <strong>Description:</strong> Document Management Software of the Ministry of Internal
+                            Affairs and
                             Communications of Japan.
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Technology: Java Framework Spring + JDBC, PostgreSQL, React JS.
+                            <strong>Technology:</strong> Java Framework Spring + JDBC, PostgreSQL, React JS.
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            My responsibility: <br>
+                            <strong>My responsibility:</strong> <br>
                             <ul>
                                 <li style="list-style-type:square">Write design documents: Function Design, Screen
                                     Design, API Design, Basic Design,
@@ -204,7 +228,7 @@
         <!-- Skills-->
         <section class="resume-section" id="skills">
             <div class="resume-section-content">
-                <h2 class="mb-5">Skills</h2>
+                <h2 class="mb-5" style="margin-top: -22px">Skills</h2>
                 <!-- <div class="subheading mb-3">Programming Languages & Tools</div>
                 <ul class="list-inline dev-icons">
                     <li class="list-inline-item"><i class="fab fa-java"></i></li>
@@ -240,36 +264,51 @@
                         Agile Development & Scrum
                     </li>
                 </ul> -->
-                <p>Japanese</p>
+                <p class="skill">Japanese</p>
                 <div class="w3-light-grey">
                     <div class="w3-grey" style="height:21px;width:65%"></div>
                 </div><br>
-                <p>English</p>
+                <p class="skill">English</p>
                 <div class="w3-light-grey">
                     <div class="w3-grey" style="height:21px;width:50%"></div>
                 </div><br>
-                <p>Office + Git</p>
+                <p class="skill">Office + Git</p>
                 <div class="w3-light-grey">
                     <div class="w3-grey" style="height:21px;width:80%"></div>
                 </div><br>
-                <p>Logical thinking and creative</p>
+                <p class="skill">Logical thinking and creative</p>
                 <div class="w3-light-grey">
                     <div class="w3-grey" style="height:21px;width:80%"></div>
                 </div><br>
-                <p>Public Speaking</p>
+                <p class="skill">Public Speaking</p>
                 <div class="w3-light-grey">
                     <div class="w3-grey" style="height:21px;width:70%"></div>
                 </div><br>
-                <p>Team Player</p>
+                <p class="skill">Team Player</p>
                 <div class="w3-light-grey">
                     <div class="w3-grey" style="height:21px;width:80%"></div>
                 </div><br>
-                <ul class="font-text">
-                    <li>Programming: Java, HTML5, CSS3, C<br></li>
-                    <li>Framework: Spring boot<br></li>
-                    <li>Databases: PostgreSQL, MySQL, SQL Server<br></li>
-                    <li>Tools : IntelliJ, Eclipse, NetBean, Dev C++, Visual Studio</li>
-                </ul><br><br><br><br>
+                <div style="margin-left: -47px">
+                    <ul class="font-text fa-ul">
+                        <li>
+                            <i class="fas fa-laptop-code" style="font-size: 17px;"></i>
+                            <strong>Programming:</strong> Java, HTML5, CSS3, C<br>
+                        </li>
+                        <li>
+                            <i class="fas fa-power-off" style="margin-left: 2px; margin-right: 1px;"></i>
+                            <strong>Framework:</strong> Spring boot<br>
+                        </li>
+                        <li>
+                            <i class="fas fa-database"
+                                style="font-size: 18px; margin-left: 3px; margin-right: 2px;"></i>
+                            <strong>Databases:</strong> PostgreSQL, MySQL, SQL Server<br>
+                        </li>
+                        <li>
+                            <i class="fas fa-tools" style="margin-left: 1px; margin-right: 2px;"></i>
+                            <strong>Tools:</strong> IntelliJ, Eclipse, NetBean, Dev C++, Visual Studio
+                        </li>
+                    </ul>
+                </div><br><br><br><br>
                 <!-- CERTIFICATES-->
                 <h2 class="mb-5" id="certificates">CERTIFICATES</h2>
                 <ul class="fa-ul mb-0">
@@ -295,8 +334,8 @@
         <hr class="m-0" />
         <!-- Interests-->
         <section class="resume-section" id="interests">
-
-            <div class="resume-section-content" style="margin-bottom: 400px;">
+            <!-- https://www.w3schools.com/icons/icons_reference.asp -->
+            <div class="resume-section-content" style="margin-bottom: 250px;">
                 <h2 class="mb-5">Interests</h2>
                 <div class="social-icons">
                     <a class="social-icon" href="#"><i class="far fa-futbol"></i></a>
@@ -306,47 +345,49 @@
                     <a class="social-icon" href="#"><i class="fas fa-gamepad"></i></a>
                     <a class="social-icon" href="#"><i class="fas fa-swimmer"></i></a>
                 </div><br><br><br><br><br>
-                <!-- Volunteer Experiences -->
-                <!-- <h2 class="mb-5" id="volunteer">Volunteer Experiences</h2>
+                <!--Activity -->
+                <h2 class="mb-5" id="activity" style="margin-top: 200px;">ACTIVITIES</h2>
                 <ul class="fa-ul mb-0">
                     <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        <span class="fa-li"><i class="fas fa-hand-holding-medical"></i></span>
                         Blood Donor Day in FPT University. (03/2018)
                     </li>
                     <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        <span class="fa-li"><i class="fas fa-dumbbell"></i></span>
                         Workshop on sport of Street Workout Club in FPT University. (10/2018)
                     </li>
                     <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        <span class="fa-li"><i class="fas fa-running"></i></span>
                         Run For Green - FPT Software. (10/2019)
                     </li>
-                </ul><br><br><br><br><br> -->
+                </ul><br><br><br><br><br>
                 <!-- References -->
                 <h2 class="mb-5" style="margin-top: 200px;" id="references">References</h2>
-                <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                    Full Name: Vuong Van Phuc
-                </li>
-                <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                    Position: Project Manager
-                </li>
-                <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                    Email: phucvv@xxx.com.vn
-                </li>
-                <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                    Mobile: 093 xxxxxxx
-                </li>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        <strong>Full Name:</strong> Vuong Van Phuc
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        <strong>Position:</strong> Project Manager
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        <strong>Email:</strong> phucvv@xxx.com.vn
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        <strong>Mobile: </strong> 093 xxxxxxx
+                    </li>
+                </ul>
             </div>
         </section>
     </div>
 
     <!-- Footer -->
     <div id="footer">
-        Finally, I would like to say "Thank You" for spent time to look at my CV profile.
+        Finally, I would like to say "Thank You" for spent time to look at my CV profile.❤
     </div>
     <script>
         // Get the modal
@@ -354,9 +395,16 @@
 
         // Get the image and insert it inside the modal - use its "alt" text as a caption
         var img = document.getElementById("myImg");
+        var img1 = document.getElementById("myImg1");
         var modalImg = document.getElementById("img01");
         var captionText = document.getElementById("caption");
         img.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        img1.onclick = function () {
             modal.style.display = "block";
             modalImg.src = this.src;
             captionText.innerHTML = this.alt;

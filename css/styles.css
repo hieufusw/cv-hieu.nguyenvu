@@ -601,16 +601,30 @@ mark,
 .w3-light-grey {
   color: #000 !important;
   background-color: #f1f1f1 !important;
-  width: 600px
+  width: 600px;
+  border-radius: 5px;
 }
 
 .w3-grey {
   color: #000 !important;
-  background-color: #bd5d38 !important
+  background-color: #bd5d38 !important;
+  animation: progress 1500ms ease-in 1;
+  border-radius: 5px;
+  height: 23px
+}
+
+@keyframes progress {
+  from {
+      width: 0;
+  }
 }
 
 .w3-grey:hover {
   background-color: #007bff !important;
+}
+
+.skill {
+  font-weight: bold;
 }
 
 .img-fluid {
@@ -10896,6 +10910,8 @@ a.text-info:focus {
 
 .text-warning {
   color: #ffc107 !important;
+  font-size: 12px;
+  margin-bottom: 2px;
 }
 
 a.text-warning:hover,
